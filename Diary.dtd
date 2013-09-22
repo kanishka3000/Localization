@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--
+    TODO define vocabulary identification
+    PUBLIC ID: -//vendor//vocabulary//EN
+    SYSTEM ID: http://server/path/Diary.dtd
+
+-->
+
+<!--
+    An example how to use this DTD from your XML document:
+
+    <?xml version="1.0"?>
+
+    <!DOCTYPE Diary SYSTEM "Diary.dtd">
+
+    <Diary>
+    ...
+    </Diary>
+-->
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Diary (Entry)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Entry (value|date)*>
+<!ATTLIST Entry
+    id ID #REQUIRED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT date (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT value (#PCDATA)>

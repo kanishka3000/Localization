@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <!DOCTYPE Diary SYSTEM "Diary.dtd">
+<!--
+    Document   : Diary.xml
+    Created on : December 24, 2009, 9:44 AM
+    Author     : kanishka
+    Description:
+        Purpose of the document follows.
+-->
+
+<Diary>
+    <Entry id="001">
+        <date>2008-9-0</date>
+        <value>this is kanishka</value>
+    </Entry>
+    <Entry id="002">
+        <date>2008-9-1</date>
+        <value>this is me</value>
+    </Entry>
+</Diary>

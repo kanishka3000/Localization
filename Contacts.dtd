@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--
+    TODO define vocabulary identification
+    PUBLIC ID: -//vendor//vocabulary//EN
+    SYSTEM ID: http://server/path/Contacts.dtd
+
+-->
+
+<!--
+    An example how to use this DTD from your XML document:
+
+    <?xml version="1.0"?>
+
+    <!DOCTYPE Contacts SYSTEM "Contacts.dtd">
+
+    <Contacts>
+    ...
+    </Contacts>
+-->
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Contacts (Contact)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Contact (telephone|email|address|lastname|firstname)*>
+<!ATTLIST Contact
+    id ID #REQUIRED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT firstname (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT lastname (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT address (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT email (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT telephone (#PCDATA)>

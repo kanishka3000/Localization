@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!--
+    Document   : Contacts.xml
+    Created on : December 17, 2009, 9:20 PM
+    Author     : kanishka
+    Description:
+        data base of contacts
+--><Contacts>
+    <Contact id="004">
+        <firstname>kanishka</firstname>
+        <lastname>Weerasekara</lastname>
+        <address>Malabe</address>
+        <email>ka@yahoo.com</email>
+        <telephone>99393</telephone>
+        
+        
+    </Contact>
+    
+  <Contact id="008">
+        <firstname>Gayan</firstname>
+        <lastname>Weerasekara</lastname>
+        <address>Malabe</address>
+        <email>ka@yahoo.com</email>
+        <telephone>99393</telephone>
+        
+        
+    </Contact>  
+    
+    
+    
+    
+    
+</Contacts>
